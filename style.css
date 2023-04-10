@@ -1,0 +1,18 @@
+h3 {
+    font-size: 25px !important;
+}
+
+body {
+    background-color: pink;
+}
+
+canvas {
+    animation-name: coruja_caolho;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes coruja_caolho {
+    from {box-shadow: 1px 1px 38px lightpink;}
+    to {box-shadow: 1px 1px 20px black;}
+}
